@@ -11,7 +11,7 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
     
-const url = "https://6892d299c49d24bce8686a32.mockapi.io/api/v1/employee";
+const url = "";
 
 
 async function fetchData(url) {
@@ -79,4 +79,3 @@ app.post("/employee", async (req, res) => {
   res.status(200).json({ message: "Data created successfully", data: result.data });
 });
 
-//This using for WU workshop
